@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(230, 198, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1100px;
+    margin: 0px auto;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 10px;
+    background-image: url(https://i.pinimg.com/originals/0a/f2/25/0af225dd4996c7a77673b9b6b7e6d10f.jpg);
+}
+
+.clearfix {
+    clear: both;
+}
+
+p {
+    background-color: pink;
+    padding: 15px;
+    color: black;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+
+h1 {
+    color: indianred;
+    margin-top: 50px;
+}
+
+h3 {
+    color: indianred;
+    margin-bottom: 15px;
+}
+
+#container .favorito {
+    background-color: pink;
+    height: 140px;
+    width: calc((100%/3) - 48px);
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-left: 40px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+
+table th,
+tr,
+td {
+    background: pink;
+    border: 2px solid wheat;
+    text-align: center;
+    padding: 5px;
+}
+
+.materias {
+    background: pink;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid wheat;
+}
+
+a {
+    background: pink;
+    border: 2px solid wheat;
+}
+
+footer {
+    background: pink;
+    border: 2px solid wheat;
+    padding: 8px;
+    margin-top: 5px;
+    text-align: center;
+}
